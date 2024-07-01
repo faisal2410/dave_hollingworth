@@ -5,10 +5,7 @@
         "price": 3.99,
         "available": true,
         "language": null,
-        "categories": [
-            "children",
-            "fiction"
-        ],
+        "categories": ["children", "fiction"],
         "author": {
             "firstname": "Hans Christian",
             "surname": "Andersen"
@@ -20,10 +17,7 @@
         "price": 14.50,
         "available": false,
         "language": "en",
-        "categories": [
-            "education",
-            "non-fiction"
-        ],
+        "categories": ["education", "non-fiction"],
         "author": {
             "firstname": "Teresa",
             "surname": "Green"
@@ -35,9 +29,7 @@
         "price": 3.00,
         "available": true,
         "language": "en",
-        "categories": [
-            "non-fiction"
-        ],
+        "categories": ["non-fiction"],
         "author": {
             "firstname": "Teresa",
             "surname": "Green"

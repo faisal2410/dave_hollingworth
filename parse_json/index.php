@@ -2,6 +2,16 @@
 
 $contents = file_get_contents('books.json');
 
+/*
+$data=json_decode($contents);
+var_dump($data);
+exit("Task end");
+
+var_dump($contents);
+exit();
+
+*/ 
+
 try {
 
     $data = json_decode(
@@ -16,12 +26,15 @@ try {
 /*
 if (json_last_error() !== JSON_ERROR_NONE) {
     echo json_last_error_msg();
-}
+    }
+    exit("Task end!!!");
 */
 
 var_dump($data[0]['title']);
 var_dump($data[1]['pages']);
 var_dump($data[0]['author']['firstname']);
+
+// exit("task end");
 
 echo '<pre>';
 print_r($data);
