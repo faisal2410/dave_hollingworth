@@ -24,6 +24,17 @@ try {
 }
 
 /*
+function dd($data){
+    var_dump($data);
+    
+    die("The execution ended");
+}
+
+dd($data);
+*/ 
+
+
+/*
 if (json_last_error() !== JSON_ERROR_NONE) {
     echo json_last_error_msg();
     }
