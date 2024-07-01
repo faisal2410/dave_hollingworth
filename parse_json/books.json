@@ -1,0 +1,46 @@
+[
+    {
+        "title": "Fairy Tales",
+        "pages": 100,
+        "price": 3.99,
+        "available": true,
+        "language": null,
+        "categories": [
+            "children",
+            "fiction"
+        ],
+        "author": {
+            "firstname": "Hans Christian",
+            "surname": "Andersen"
+        }
+    },
+    {
+        "title": "Gardening",
+        "pages": 250,
+        "price": 14.50,
+        "available": false,
+        "language": "en",
+        "categories": [
+            "education",
+            "non-fiction"
+        ],
+        "author": {
+            "firstname": "Teresa",
+            "surname": "Green"
+        }
+    },
+    {
+        "title": "Space",
+        "pages": 55,
+        "price": 3.00,
+        "available": true,
+        "language": "en",
+        "categories": [
+            "non-fiction"
+        ],
+        "author": {
+            "firstname": "Teresa",
+            "surname": "Green"
+        }
+    }
+]
